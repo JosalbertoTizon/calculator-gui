@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 2px;
+  width: 80px;
+  font-size: 20px;
+}
+
+.big-button {
+  width: 100%;
+}
+
+.calculator-box {
+  background-color: #666666;
+  padding: 8px;
+}
+
+.buttons-box {
+  display: flex;
+  gap: 2px;
+}
+
+.screen {
+  height: 100px;
+  background-color: #e0e0e0;
+  margin-bottom: 5px;
+}
+
+.equal-box {
+  display: flex;
+  gap: 2px;
+}
