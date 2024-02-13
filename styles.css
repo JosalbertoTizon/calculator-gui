@@ -1,7 +1,13 @@
+@font-face {
+  font-family: CalculatorFont;
+  src: url(fonts/Calculator.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
@@ -35,9 +41,16 @@ button {
 }
 
 .screen {
+  display: flex;
+  justify-content: end;
+  align-items: center;
   height: 100px;
   background-color: #e0e0e0;
-  margin-bottom: 5px;
+  padding: 10px;
+  margin-bottom: 8px;
+  text-align: end;
+  font-family: CalculatorFont;
+  font-size: 50px;
 }
 
 .equal-box {
