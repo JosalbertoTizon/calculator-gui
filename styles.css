@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  font-variant-numeric: tabular-nums lining-nums;
 }
 
 body {
@@ -33,6 +34,8 @@ button {
 .calculator-box {
   background-color: #666666;
   padding: 8px;
+  border-radius: 8px;
+  width: 342px;
 }
 
 .buttons-box {
@@ -41,16 +44,16 @@ button {
 }
 
 .screen {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  height: 100px;
   background-color: #e0e0e0;
-  padding: 10px;
+  padding: 3px 8px;
   margin-bottom: 8px;
-  text-align: end;
   font-family: CalculatorFont;
-  font-size: 50px;
+  font-size: 82px;
+  text-align: end;
+  border-radius: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 .equal-box {
