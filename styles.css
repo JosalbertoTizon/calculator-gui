@@ -31,6 +31,17 @@ button {
   width: 100%;
 }
 
+.clear-all,
+.percentage,
+.negative-signal {
+  background-color: darkcyan;
+}
+
+.operation,
+.equal {
+  background-color: orange;
+}
+
 .calculator-box {
   background-color: #666666;
   padding: 8px;
